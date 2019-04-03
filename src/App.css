@@ -1,16 +1,13 @@
-.heading {
+.entries {
   max-width: 1200px;
   min-width: 900px;
-  font-weight: 400;
-  font-size: 15px;
-  text-align: center;
-  color: #ccc;
+  margin: 0 auto;
+  padding: 0 30px;
+  overflow: hidden;
 }
 
 .entry {
   margin: 170px auto;
-  max-width: 1200px;
-  min-width: 900px;
   display: flex;
   align-items: center;
 }

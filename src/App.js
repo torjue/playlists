@@ -5,7 +5,7 @@ import playlists from './playlists.json';
 class App extends Component {
   render() {
     return (
-      <>
+      <div className="entries">
         { playlists.map(playlist => 
           <div className="entry">
             <div className="info">
@@ -17,7 +17,7 @@ class App extends Component {
             </div>
           </div>
         ) }
-      </>
+      </div>
     );
   }
 }
