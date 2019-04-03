@@ -13,7 +13,7 @@ class App extends Component {
               <div className="title">{playlist.title}</div>
             </div>
             <div className="playlist">
-              <iframe src={`https://open.spotify.com/embed?uri=spotify:playlist:${playlist.id}`} width="400px" height="350px" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+              <iframe title={playlist.title} src={`https://open.spotify.com/embed?uri=spotify:playlist:${playlist.id}`} width="400px" height="350px" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             </div>
           </div>
         ) }
