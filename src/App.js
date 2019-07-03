@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import "./App.css";
-import playlists from "./playlists.json";
+import React, { Component } from 'react';
+import './App.css';
+import playlists from './playlists.json';
 
 class App extends Component {
   render() {
